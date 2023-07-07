@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Додати громадянина</title>
+    </head>
+        <body>
+            <h1>Додати громадянина</h1>
+            <form method="post" action="add_population.php"><br>
+                <b>ПІБ:</b><br><input name="PIB" value="" required size=30><br><br>
+                <b>Стать:</b><br><input name="gender" value="" required size=30><br><br>
+                <b>Дата народження:</b><br><input name="dateofbirth" required value="2000-03-03" size=30><br><br>
+                <b>Дата смерті:</b><br><input name="dateofdeath" required value="0000-00-00" size=30><br><br>
+                <b>Сімейний стан:</b><br><input name="marital_status" required value="" size=30><br><br>
+                <b>Національність:</b><br><input name="nationality" required value="" size=30><br><br>
+                <b>Номер телефону:</b> <br><input name="phone_number" required value="+380000000000" size=11><br><br>
+                <b>Місце проживання:</b><br><input name="city_r" required value="м. Львів" size=30>
+                <input name="adres_r" value="вул. Городоцька 12" required size=30><br><br>
+                <b>Місце народження:</b><br><input name="city_b" required value="м. Харків" size=30>
+                <input name="adres_b" required value="вул. Дружби 16" size=30><br><br>
+                <input type="submit" value="OK">
+            </form>
+            <a href='population.php'>🢠 Список населення</a>
+        </body>
+</html>
